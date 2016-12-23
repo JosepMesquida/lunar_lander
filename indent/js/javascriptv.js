@@ -25,6 +25,7 @@ window.onload = function(){
 
 }
 
+
 //Temporizador start
 function start(){
 	timer=setInterval(function(){ moverNave(); }, dt*1000);
@@ -50,6 +51,11 @@ function fueltime(start){
 	f -= fueltimer;
 	document.getElementById("fuel").innerHTML=f;
 }
+	
+	if (y<14){
+			motorOff();
+		}
+
 	if (y<86){ 
 		document.getElementById("fuego").style.top = y+7.9+"%";
 		document.getElementById("nave").style.top = y+"%";
@@ -89,7 +95,4 @@ function motorOff(){
 	document.getElementById("fuego").style.display = "none";
 }
 
-if (y>84) {
-	document.getElementById("instrucciones").style.display="block";
-}
 
