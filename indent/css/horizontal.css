@@ -1,0 +1,245 @@
+body,html{
+	height:100%;
+	padding:0px;
+	margin:0px;
+	background-image: url("../imagen/espacio.png");
+}
+
+.a{
+}
+ 
+.b{
+}
+
+.c{
+	display:block;
+}
+
+.a,.b,.c{
+	display:inline-block;
+	width:33.33%;
+	height:100%;
+	float:left;
+}
+
+.d{
+	height:10%;
+	width:100%;
+	bottom:0px;
+	left:0%;
+	background-image: url("../imagen/luna.png");
+	z-index:1;
+	position: fixed;
+}
+
+#nave{
+	text-align:center;
+	position:fixed;
+	top:10%;
+	left:0%;
+	width:100%;
+	height:20%;
+	z-index:3;
+}
+
+#explosion {
+	display: none;
+	text-align:center;
+	position:fixed;
+	top:10%;
+	left:0%;
+	width:100%;
+	height:40%;
+	z-index:4;
+}
+
+#explosion img{
+	height:100%;
+}
+#nave img{
+	height:50%;
+}
+
+#fuego{
+	text-align:center;
+	position:fixed;
+	top:18%;
+	left:0%;
+	width:100%;
+	height:20%;
+	z-index:2;
+	display: none;
+}
+
+#ganado {
+	display:none;
+	height:10%;
+	width:60%;
+	top: 50%;
+	left: 21%;
+	position:fixed;
+	color: green;
+	font-weight: bold;
+	font-size: 300%;
+	text-align: center;
+}
+
+#perdido {
+	text-align: center;
+	display:none;
+	height:10%;
+	width:60%;
+	top: 50%;
+	left: 21%;
+	position:fixed;
+	color: green;
+	font-weight: bold;
+	font-size: 300%;
+}
+
+#reiniciar {
+	text-align: center;
+	display:none;
+	height:0%;
+	width:60%;
+	top: 60%;
+	left: 21%;
+	position:fixed;
+	color: green;
+	font-weight: bold;
+	font-size: 250%;
+}
+
+#song {
+	height: 0%;
+	bottom:0%;
+}
+
+#fuego img{
+	height:50%;
+}
+
+#cpanel{
+	color: green;
+	height:90%;
+	width:40%;
+	font-weight: bold;
+	left:0%;
+	top:10%;
+	position: fixed;
+	background: none;
+}
+
+#instrucciones{
+	display:none;
+	height:70%;
+	width:75%;
+	top: 10%;
+	left: 22.5%;
+	position:fixed;
+}
+
+#instrucciones img {
+	height: 100%;
+}
+
+#altura {
+	display: none;
+}
+
+#velocidad {
+    line-height: 70px;
+    padding-left: 80px;
+    text-align: left;
+}
+
+#velo img {
+	height:10%;
+	position: fixed;
+	top:10%;
+	left:3%;
+}
+
+#fuel{
+	line-height: 100px;
+    padding-left: 80px;
+    text-align: left;
+}
+
+#fu img{
+	height:10%;
+	position: fixed;
+	top:25%;
+	left:3%;
+}
+
+
+#menu {
+	height:7%;
+	width:100%;
+	top:0px;
+	left:0%;
+	position: fixed;
+}
+
+/*Menu interactivo*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #689F38;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #33691E;
+}
+
+/*FIN MENU*/
+
+.dropbtn {
+	display: none;
+}
+
+.dropdown {
+	display: none;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+	display: none;
+}
+
+.dropdown-content a:hover {
+	display: none;
+}
+
+.dropdown:hover .dropdown-content {
+	display: none;
+
+}
+
+.dropdown:hover .dropbtn {
+	display: none;
+}

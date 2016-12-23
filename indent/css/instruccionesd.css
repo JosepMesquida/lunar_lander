@@ -1,0 +1,174 @@
+body,html{
+	height:100%;
+	padding:0px;
+	margin:0px;
+	background-image: url("../imagen/espacio.png");
+}
+
+.a{
+}
+ 
+.b{
+}
+
+.c{
+	display:block;
+}
+
+.a,.b,.c{
+	display:inline-block;
+	width:33.33%;
+	height:100%;
+	float:left;
+}
+
+.d{
+	height:10%;
+	width:100%;
+	bottom:0px;
+	left:0%;
+	background-image: url("../imagen/luna.png");
+	z-index:1;
+	position: fixed;
+}
+
+#nave{
+	text-align:center;
+	position:fixed;
+	bottom:4%;
+	right:15%;
+	width:10%;
+	height:20%;
+	z-index:3;
+}
+
+#nave img{
+	height:100%;
+	left: 90%;
+	bottom: 10%;
+}
+
+
+
+#cpanel{
+	color: green;
+	height:90%;
+	width:40%;
+	font-weight: bold;
+	left:0%;
+	top:10%;
+	position: fixed;
+	background: none;
+}
+
+#instrucciones{
+	display:block;
+	height:70%;
+	width:75%;
+	top: 10%;
+	left: 22.5%;
+	position:fixed;
+}
+
+#instrucciones img {
+	height: 100%;
+}
+
+#altura {
+	display: none;
+}
+
+#velocidad {
+    line-height: 70px;
+    padding-left: 80px;
+    text-align: left;
+}
+
+#velo img {
+	height:10%;
+	position: fixed;
+	top:10%;
+	left:3%;
+}
+
+#fu img{
+	height:10%;
+	position: fixed;
+	top:25%;
+	left:3%;
+}
+
+
+#menu {
+	height:7%;
+	width:100%;
+	top:0px;
+	left:0%;
+	position: fixed;
+}
+
+/*Menu interactivo*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #689F38;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #33691E;
+}
+
+/*FIN MENU*/
+
+.dropbtn {
+	display: none;
+}
+
+.dropdown {
+	display: none;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+	display: none;
+}
+
+.dropdown-content a:hover {
+	display: none;
+}
+
+.dropdown:hover .dropdown-content {
+	display: none;
+
+}
+
+.dropdown:hover .dropbtn {
+	display: none;
+}
+
+#escrito {
+	display: none;
+}
